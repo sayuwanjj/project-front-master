@@ -5,10 +5,10 @@
     --color-muted: #666;
     --color-primary: #0a84ff;
     --color-danger: #b00020;
-    --color-menu: rgba(255, 255, 255, 0.548);
-    --color-hover: #fba9a3;
-    --color-icbg: rgb(152, 69, 171);
-    --color-activepg: rgb(205, 80, 155);
+    --color-menu: rgba(15, 14, 13, 0.548);
+    --color-hover: #ffef3e;
+    --color-icbg: rgb(234, 109, 12);
+    --color-activepg: rgb(235, 183, 12);
     --color-activetext: rgb(255, 255, 255);
 
 
@@ -119,7 +119,7 @@ button {
 /* Кнопка по умолчанию */
 button,
 [type="submit"] {
-    background: #0a84ff;
+    background: #ffa50a;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -127,7 +127,7 @@ button,
 
 /* Состояния: клавиатура/мышь/ошибки */
 :where(input, select, textarea, button):focus-visible {
-    outline: 2px solid #0a84ff;
+    outline: 2px solid #faaa21;
     outline-offset: 2px;
 }
 
