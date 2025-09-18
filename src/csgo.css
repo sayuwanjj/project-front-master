@@ -152,7 +152,7 @@ button:hover {
 /* Тёмная тема: переопределяем только значения токенов */
 body.theme-dark {
     --color-bg: #333333;
-    --color-fg: #f5f5f5;
+    --color-fg: #ffc38a;
     --color-muted: #aaa;
     --color-menu: rgba(0, 106, 255, 0.761);
     --color-hover: #62b0de;
