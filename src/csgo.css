@@ -1,6 +1,6 @@
 :root {
     /* Палитра */
-    --color-bg: #fff;
+    --color-bg: #faf4ed;
     --color-fg: #0b0b0b;
     --color-muted: #666;
     --color-primary: #0a84ff;
@@ -152,7 +152,7 @@ button:hover {
 /* Тёмная тема: переопределяем только значения токенов */
 body.theme-dark {
     --color-bg: #333333;
-    --color-fg: #ffc38a;
+    --color-fg: #ffffff;
     --color-muted: #aaa;
     --color-menu: rgba(0, 106, 255, 0.761);
     --color-hover: #62b0de;
